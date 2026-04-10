@@ -1,0 +1,1 @@
+This repository contains the full implementation of a Multi-Layer Perceptron (MLP) designed to solve the non-linearly separable XOR problem directly on FPGA hardware. Unlike traditional sequential processors, this engine utilizes the massive parallelism of the Intel MAX 10 to perform neural inference in real-time.
