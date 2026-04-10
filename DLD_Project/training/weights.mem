@@ -1,0 +1,12 @@
+// XOR MLP weights – load with $readmemh("weights.mem", mem)
+// n=3  S=8  activation=step
+// Order: W1_00 W1_01 W1_10 W1_11  b1_0 b1_1  W2_0 W2_1  b2
+CA  // [0] W1[0,0]
+29  // [1] W1[0,1]
+CA  // [2] W1[1,0]
+29  // [3] W1[1,1]
+16  // [4] b1[0]
+C0  // [5] b1[1]
+A9  // [6] W2[0]
+A7  // [7] W2[1]
+2B  // [8] b2
